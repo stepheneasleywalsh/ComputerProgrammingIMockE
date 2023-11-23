@@ -6,7 +6,7 @@ def f(x):
 
 
 # Print table of values
-print(" # # # f(x) = -x^2 + 3x + 2 from a=1 to b=2 # # # ")
+print(" # # # f(x) = -x^2 + 3x - 2 from a=1 to b=2 # # # ")
 x = 1.0
 middlesum = 0.0
 while x < 2.01:
