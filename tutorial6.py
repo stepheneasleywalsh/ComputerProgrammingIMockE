@@ -24,16 +24,16 @@ middlesum -= last
 
 # Results of Trapezium Rule with error
 h = 0.10
-T = (h/2)*(first + 2*middlesum + last)
-I = 1/6
+ApproxValue = (h/2)*(first + 2*middlesum + last)
+TrueValue = 1/6
 
 print(" # # # Example of Trapezium Rule Values # # # ")
 print("First Height:", first)
 print("Last Height:", last)
 print("Middle Sum:", middlesum)
-print("Integration is approximately", T)
+print("Integration is approximately", ApproxValue)
 print("True value of integration is 1/6")
-error = 100*(I-T)/T
+error = 100*(TrueValue-ApproxValue)/TrueValue
 print("Therefore the error is ",error,"%")
 
 # QUIT
