@@ -6,9 +6,9 @@ def f(x):
 
 # Print table of values
 print(" # # # f(x) = -x^2 + 3x + 2 from a=1 to b=2 # # # ")
-x = 1.1
+x = 1
 sum = 0
-while x < 2:
+while x < 2.05:
     print("When x =",round(x,4),"=> f(x) =", round(f(x),4))
     sum += f(x)
     x += 0.05
